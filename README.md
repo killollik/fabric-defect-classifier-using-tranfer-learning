@@ -31,13 +31,12 @@ This project is designed to be run in a Google Colab environment for easy access
 ### 2.1. Prerequisites
 
 *   A Google Account to use Google Colab.
-*   The proprietary image dataset, structured and zipped as `fabric_dataset.zip`.
 
 ### 2.2. Data Preparation (Crucial Step)
 
 As the image data is proprietary, it is not included in this repository. You must provide it yourself.
 
-1.  On your local machine, create the following folder structure:
+ On your drive, create the following folder structure:
     ```
     fabric_dataset/
     └── train/
@@ -46,7 +45,6 @@ As the image data is proprietary, it is not included in this repository. You mus
         └── non_defective/
             └── (place your 50 non-defective images here)
     ```
-2.  Create a **zip file** from the `fabric_dataset` folder. The final file must be named `fabric_dataset.zip`.
 
 ### 2.3. Execution in Google Colab
 
@@ -63,13 +61,9 @@ As the image data is proprietary, it is not included in this repository. You mus
     ```python
     !pip install -r requirements.txt
     ```
-5.  **Upload Your Data:**
-    *   In the Colab file explorer panel on the left, navigate into the `fabric-defect-classifier` directory.
-    *   Click the "Upload" button and select your `fabric_dataset.zip` file. Wait for it to finish uploading.
-6.  **Run the Training Script:** Execute the main training script with the following command:
+5.  **Run the Training Script:** Execute the main training script with the following command:
     ```python
     !python src/train_model.py
     ```
-    The script will automatically find the zip file, unzip it, and run the complete training and fine-tuning process.
-7.  **Get the Final Model:** After the script finishes, a new file named `final_fabric_defect_model.keras` will appear in the file explorer. This is your trained model, which you can download.
+6.  **Get the Final Model:** After the script finishes, a new file named `final_fabric_defect_model.keras` will appear in the file explorer. This is your trained model, which you can download.
 
