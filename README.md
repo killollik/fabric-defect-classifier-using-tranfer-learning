@@ -52,7 +52,7 @@ As the image data is proprietary, it is not included in this repository. You mus
 1.  **Open Google Colab:** Go to [colab.research.google.com](https://colab.research.google.com).
 2.  **Clone the Repository:** Open a new notebook and run the following command in a cell to clone this repository into your Colab environment:
     ```python
-    !git clone https://github.com/[Your-GitHub-Username]/fabric-defect-classifier.git
+    !git clone https://github.com/killollik/fabric-defect-classifier-using-tranfer-learning.git
     ```
 3.  **Navigate into the Directory:**
     ```python
