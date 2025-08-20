@@ -37,6 +37,7 @@ This project is designed to be run in a Google Colab environment for easy access
 As the image data is proprietary, it is not included in this repository. You must provide it yourself.
 
  On your drive, create the following folder structure:
+ 
     ```
     fabric_dataset/
     └── train/
