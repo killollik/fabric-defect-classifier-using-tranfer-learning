@@ -56,7 +56,7 @@ As the image data is proprietary, it is not included in this repository. You mus
     ```
 3.  **Navigate into the Directory:**
     ```python
-    %cd fabric-defect-classifier
+    %cd fabric-defect-classifier-using-tranfer-learning
     ```
 4.  **Install Dependencies:** Run the following command to install the required libraries:
     ```python
